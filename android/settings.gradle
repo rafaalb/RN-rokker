@@ -1,0 +1,3 @@
+rootProject.name = 'CartLab'
+
+include ':app'
