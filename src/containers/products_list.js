@@ -58,7 +58,9 @@ class ProductsList extends Component {
                       Close
                     </Text>
                  </TouchableOpacity>
-                  {this.renderCart()}
+                 <ScrollView>
+                    {this.renderCart()}
+                  </ScrollView>
                   {this.props.cart.length > 0 &&
                     <View style={{ width: '100%', height: 30 }}>
                     <View style={{ position: 'absolute', right: 20, top: 0 }}>
